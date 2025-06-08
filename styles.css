@@ -7,12 +7,13 @@ html {
   height: 20vh;
   border: none;
   display: flex;
+  justify-content: center;
   background-image: linear-gradient(to right, red, blue);
 }
 
 #h1Header {
-  justify-content: center;
+  text-decoration: italic;
   color: #ffffff;
-  text-align: center;
+  
   
 }
