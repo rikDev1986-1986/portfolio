@@ -8,10 +8,12 @@ html {
   border: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-image: linear-gradient(to right, red, blue);
 }
 
 #h1Header {
+  
   text-decoration: italic;
   color: #ffffff;
   
