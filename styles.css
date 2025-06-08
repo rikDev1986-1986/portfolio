@@ -9,4 +9,7 @@ html {
   background-image: linear-gradient(to right, red, white, blue);
 }
 
-#h1Header
+#h1Header {
+  justify-content: center;
+  
+}
