@@ -14,7 +14,7 @@ html {
 
 #h1Header {
   
-  text-decoration: italic;
+  font-style: italic;
   color: #ffffff;
   text-align: center;
   background-color: black;
