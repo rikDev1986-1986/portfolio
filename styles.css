@@ -13,12 +13,12 @@ html {
 
 #h1Header {
   
+  display: inline-block;
   font-style: italic;
   color: #ffffff;
   text-align: center;
   background-color: black;
   width: 50%;
-  height: 100%;
   
   
 }
