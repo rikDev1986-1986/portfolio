@@ -16,19 +16,19 @@ body {
      top: 0;
 }
 
-a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-  
+a, a:visited {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
 }
 
 h1 {
     color: black;
     position: absolute;
-    top: 50pos%;
+    top: 50%;
     left: 50%;
     z-index: 3;
+    transform: translateX(-50%);
 }
 
 ul {
@@ -59,4 +59,5 @@ ul.li {
     object-fit: cover;
     margin: 0 auto;
     justify-content center;
+    transform: translateX(-50%);
 }
