@@ -13,6 +13,9 @@ header {
     border: 1px solid black;
     grid-column: 1 / -1;
     grid-row: 1;
+    position: relative;
+    height: 30vh;
+    overflow: hidden;
 }
 
 nav {
@@ -32,4 +35,14 @@ footer {
     border: 1px solid black;
     grid-column: 1 / -1;
     grid-row: 3;
+}
+
+#headerimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
