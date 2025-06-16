@@ -29,6 +29,10 @@ ul {
     gap: 1rem;
 }
 
+ul.li {
+    list-style: none;
+}
+
 #navbar {
     position: absolute;
     top: 0;
