@@ -6,6 +6,7 @@ body {
 }
 
 .header {
+    display: flex;
      width: 100vw;
      height: 30vh;
      overflow: hidden;
@@ -14,6 +15,8 @@ body {
      position: relative;
      z-index: 1;
      top: 0;
+     justify-content: center;
+     align-items: bottom;
 }
 
 a, a:visited {
@@ -24,11 +27,7 @@ a, a:visited {
 
 h1 {
     color: black;
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
     z-index: 3;
-    transform: translateX(-50%);
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
 }
 
@@ -51,15 +50,9 @@ ul li {
 }
 
 #headerimg {
-    position: absolute;
-    top: 0;
-    left: 50%;
     z-index: 2;
     height: 100%;
     min-width: 400px;
     max-height: 100%;
     object-fit: cover;
-    margin: 0 auto;
-    justify-content center;
-    transform: translateX(-50%);
 }
