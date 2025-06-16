@@ -51,4 +51,7 @@ ul.li {
 #headerimg {
     position: absolute;
     z-index: 2;
+    height: 100%;
+    min-width: 400px;
+    max-height: 100%;
 }
