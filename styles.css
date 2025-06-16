@@ -10,7 +10,12 @@ body {
      height: 30vh;
      overflow: hidden;
      background: linear-gradient(orange, red);
+     color: black;
+}
 
+a {
+    text-decoration: none;
+    color: black;
 }
 
 h1 {
