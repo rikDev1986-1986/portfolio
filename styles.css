@@ -25,7 +25,7 @@ a, a:visited {
 h1 {
     color: black;
     position: absolute;
-    bottom: 10%;h1
+    bottom: 10%;
     left: 50%;
     z-index: 3;
     transform: translateX(-50%);
