@@ -9,7 +9,7 @@ body {
      width: 100vw;
      height: 30vh;
      overflow: hidden;
-     background: linear-gradient(orange, red, 0.5);
+     background: linear-gradient(orange, red);
 
 }
 
