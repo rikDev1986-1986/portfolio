@@ -16,6 +16,7 @@ body * {
      color: black;
      position: absolute;
      z-index: 1;
+     top: 0;
 }
 
 a {
@@ -44,6 +45,7 @@ ul.li {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 3;
 }
 
 #headerimg {
