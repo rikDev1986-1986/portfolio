@@ -1,24 +1,22 @@
-html {
-  box-sizing: border-box;
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
-  width: 100vw;
-  height: 20vh;
-  border: none;
-  display: flex;
-  justify-content: center;
-  background-image: linear-gradient(to right, red, blue);
+    display: flex;
+     width: 100vw;
+     height: 30vh;
+     overflow: hidden;
+     background: linear-gradient(orange, red, 0.5);
+
 }
 
-#h1Header {
-  
-  display: inline-block;
-  font-style: italic;
-  color: #ffffff;
-  text-align: center;
-  background-color: black;
-  width: 50%;
-  
-  
+h1 {
+    justify-content: center;
+    align-items: center;
+    color: black;
 }
+
+
